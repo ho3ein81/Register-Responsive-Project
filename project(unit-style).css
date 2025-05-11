@@ -1,0 +1,374 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Doran;
+            text-decoration: none;
+          
+        }
+.container{
+    width: 90vw;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255) ;
+    
+     margin: 0 auto;
+    
+     
+}
+.header{
+    position:relative;
+    border: 1px solid  rgb(255, 255, 255);
+    height: 15vh;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    padding: 1.8em 1.2em;
+    gap: 1vw;
+   
+
+}
+.img{
+  
+position: absolute;
+    display: flex;
+    justify-content:flex-end   ;
+    right: 2vw;
+}
+.body{
+    height:60vh ;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: stretch
+}
+.section-footer{
+  
+    height:12vh ;
+    width: 100%;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding: 3vh 5vw;
+    
+}
+.li1{
+    
+text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.li2{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    
+}
+.li3{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.li1:active{ 
+    
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  .li2:active{ 
+      
+      color: #666;
+      box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    }
+    .li3:active{ 
+      
+      color: #666;
+      box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    }
+
+    .li1:hover{
+  background-color: #58d68d;
+}
+.li2:hover{
+  background-color: #58d68d;
+}
+.li3:hover{
+  background-color: #58d68d;
+}
+
+
+.header1{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.header2{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.header3{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em; 
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.header1:active{ 
+    
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+.header2:active{ 
+    
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  .header3:active{ 
+    
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+
+.header1:hover{
+  background-color: #58d68d;
+  
+}
+.header2:hover{
+  background-color: #58d68d;
+}
+.header3:hover{
+  background-color: #58d68d;
+}
+
+
+  .body {
+  height: auto;
+  min-height: 60vh;
+  width: 100%;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2vh 2vw;
+}
+
+@keyframes fieldsetColorChange {
+  0% {
+    color: #000000; /* مشکی */
+  }
+  50% {
+    color: #58d68d; /* سبز */
+  }
+  100% {
+    color:#000000;
+  }
+}
+
+fieldset {
+  width: calc(90% - 6rem);
+  border: 2px solid #ccc;
+  padding: 2em;
+  border-radius: 1em;
+  background-color: #f9f9f9;
+}
+fieldset:hover {
+  border-color: #58d68d;
+  
+  
+}
+fieldset:hover .colorful-hover {
+  animation: fieldsetColorChange 1.5s infinite;
+  border-color: #58d68d;
+}
+
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+
+form table {
+  width: 100%;
+}
+
+form input,
+form textarea,
+form select {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  font-size: 1em;
+  
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5em;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  width: 45%;
+  padding: 0.7em;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background-color: #58d68d;
+}
+.cbx-label {
+    display: inline-flex; /* نمایش به صورت خطی و شناور */
+    align-items: center; /* وسط‌چین کردن محتوا */
+    margin-right: 15px; /* فاصله بین چک‌باکس‌ها */
+    cursor: pointer; /* نشانه‌گر موس برای کلیک */
+}
+
+.cbx {
+  cursor: pointer;
+    -webkit-appearance: none; /* برای مرورگرهای کروم و سفاری */
+    -moz-appearance: none; /* برای مرورگر فایرفاکس */
+    appearance: none; /* استاندارد برای دیگر مرورگرها */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #878787; /* رنگ حاشیه چک‌باکس */
+    border-radius: 5px; /* گرد کردن گوشه‌ها */
+    position: relative;
+    margin-right: 8px; /* فاصله بین چک‌باکس و متن */
+    transition: all 0.3s ease;
+}
+
+/* استایل زمانی که چک‌باکس انتخاب شده */
+.cbx:checked {
+    background-color: #58d68d; /* رنگ پس‌زمینه چک‌باکس وقتی انتخاب میشه */
+    border-color: #58d68d; /* رنگ حاشیه چک‌باکس انتخاب شده */
+}
+
+/* اضافه کردن علامت تیک */
+.cbx:checked::after {
+    content: '\2713'; /* کد یونیکد برای علامت تیک */
+    color: white; /* رنگ تیک */
+    font-size: 16px; /* اندازه تیک */
+    position: absolute;
+    bottom: -6px; /* وسط عمودی */
+    left: 2px; /* کمی از سمت چپ به راست جابه‌جا کنیم */
+}
+
+/* استایل برای حالت hover */
+.cbx:hover {
+    border-color: #58d68d; /* تغییر رنگ حاشیه در حالت hover */
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  outline: none; /* حذف outline پیش‌فرض */
+  border: 1px solid #8c8f8d; /* تغییر به رنگ دلخواه */
+  box-shadow: 0 0 5px #878787 ;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; /* حذف outline پیش‌فرض */
+  border: 1px solid #58d68d; /* تغییر به رنگ دلخواه */
+}
+
+
+.sidebar-box {
+  width: 200px;
+  height: 800px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 10px;
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+}
+.sidebar-box:hover{
+  border-color: #58d68d;
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: darkgray;
+}
+ul li a:active {
+  color: #58d68d;
+}
+input[type="radio"] {
+  accent-color: #58d68d; /* رنگ مشکی برای radio button */
+}
+@media (max-width: 720px) {
+  .sidebar-box {
+    display: none;
+  }
+
+ fieldset{
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}
