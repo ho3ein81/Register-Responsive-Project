@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Doran;
+            text-decoration: none;
+          
+        }
+.container{
+    width: 90vw;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255) ;
+    
+     margin: 0 auto;
+    
+     
+}
+.header{
+    position:relative;
+    border: 1px solid  rgb(255, 255, 255);
+    height: 15vh;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    list-style: none;
+    padding: 1.8em 1.2em;
+    gap: 1vw;
+   
+
+}
+.img{
+  
+position: absolute;
+    display: flex;
+    justify-content:flex-end   ;
+    right: 2vw;
+}
+.body{
+    height:60vh ;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: stretch
+}
+.section-footer{
+  
+    height:12vh ;
+    width: 100%;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    padding: 3vh 5vw;
+    
+}
+.li1{
+    
+text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.li2{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    
+}
+.li3{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.li1:active{ 
+    
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  .li2:active{ 
+      
+      color: #666;
+      box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    }
+    .li3:active{ 
+      
+      color: #666;
+      box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    }
+
+    .li1:hover{
+  background-color: #58d68d;
+}
+.li2:hover{
+  background-color: #58d68d;
+}
+.li3:hover{
+  background-color: #58d68d;
+}
+
+
+.header1{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.header2{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em;
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.header3{
+    text-align: center;
+color: #090909;
+  padding: 0.5em 1.2em; 
+  font-size: calc(0.8rem + 0.2vw);
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+.header1:active{ 
+    
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+.header2:active{ 
+    
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+  .header3:active{ 
+    
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+
+.header1:hover{
+  background-color: #58d68d;
+  
+}
+.header2:hover{
+  background-color: #58d68d;
+}
+.header3:hover{
+  background-color: #58d68d;
+}
+
+
+  .body {
+  height: auto;
+  min-height: 60vh;
+  width: 100%;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2vh 2vw;
+}
+
+@keyframes fieldsetColorChange {
+  0% {
+    color: #000000; /* مشکی */
+  }
+  50% {
+    color: #58d68d; /* سبز */
+  }
+  100% {
+    color:#000000;
+  }
+}
+
+fieldset {
+  width: calc(90% - 6rem);
+  border: 2px solid #ccc;
+  padding: 2em;
+  border-radius: 1em;
+  background-color: #f9f9f9;
+}
+fieldset:hover {
+  border-color: #58d68d;
+  
+  
+}
+fieldset:hover .colorful-hover {
+  animation: fieldsetColorChange 1.5s infinite;
+  border-color: #58d68d;
+}
+
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0 0.5em;
+}
+
+form table {
+  width: 100%;
+}
+
+form input,
+form textarea,
+form select {
+  cursor: pointer;
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  font-size: 1em;
+  
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5em;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  width: 45%;
+  padding: 0.7em;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #e8e8e8;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background-color: #58d68d;
+}
+.cbx-label {
+    display: inline-flex; /* نمایش به صورت خطی و شناور */
+    align-items: center; /* وسط‌چین کردن محتوا */
+    margin-right: 15px; /* فاصله بین چک‌باکس‌ها */
+    cursor: pointer; /* نشانه‌گر موس برای کلیک */
+}
+
+.cbx {
+  cursor: pointer;
+    -webkit-appearance: none; /* برای مرورگرهای کروم و سفاری */
+    -moz-appearance: none; /* برای مرورگر فایرفاکس */
+    appearance: none; /* استاندارد برای دیگر مرورگرها */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #878787; /* رنگ حاشیه چک‌باکس */
+    border-radius: 5px; /* گرد کردن گوشه‌ها */
+    position: relative;
+    margin-right: 8px; /* فاصله بین چک‌باکس و متن */
+    transition: all 0.3s ease;
+}
+
+/* استایل زمانی که چک‌باکس انتخاب شده */
+.cbx:checked {
+    background-color: #58d68d; /* رنگ پس‌زمینه چک‌باکس وقتی انتخاب میشه */
+    border-color: #58d68d; /* رنگ حاشیه چک‌باکس انتخاب شده */
+}
+
+/* اضافه کردن علامت تیک */
+.cbx:checked::after {
+    content: '\2713'; /* کد یونیکد برای علامت تیک */
+    color: white; /* رنگ تیک */
+    font-size: 16px; /* اندازه تیک */
+    position: absolute;
+    bottom: -6px; /* وسط عمودی */
+    left: 2px; /* کمی از سمت چپ به راست جابه‌جا کنیم */
+}
+
+/* استایل برای حالت hover */
+.cbx:hover {
+    border-color: #58d68d; /* تغییر رنگ حاشیه در حالت hover */
+}
+
+input:hover,
+textarea:hover,
+select:hover {
+  outline: none; /* حذف outline پیش‌فرض */
+  border: 1px solid #8c8f8d; /* تغییر به رنگ دلخواه */
+  box-shadow: 0 0 5px #878787 ;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none; /* حذف outline پیش‌فرض */
+  border: 1px solid #58d68d; /* تغییر به رنگ دلخواه */
+}
+
+
+.sidebar-box {
+  width: 200px;
+  height: 800px;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: 10px;
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border: 2px solid #ddd;
+}
+.sidebar-box:hover{
+  border-color: #58d68d;
+}
+ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: darkgray;
+}
+ul li a:active {
+  color: #58d68d;
+}
+input[type="radio"] {
+  accent-color: #58d68d; /* رنگ مشکی برای radio button */
+}
+@media (max-width: 720px) {
+  .sidebar-box {
+    display: none;
+  }
+
+ fieldset{
+    width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+    </style>
+</head>
+
+<body dir="rtl">
+    
+    <div class="container">
+      
+
+<div class="menu">
+    
+        <ul class="header">
+            
+                <li class="img">
+            <img src="image/8.webp" alt="لوگوی سایت" width="auto" height="50px">
+            </li>
+         
+            <li class="header1">
+            <a href="#">خانه</a></li>
+          <li class="header2"> 
+            <a href="#">درباره ما</a>
+          </li>
+          <li class="header3"><a href="#"> تماس با ما</a></li>
+        </ul>
+      
+</div>
+
+<div class="body">
+  <fieldset >
+    <legend class="colorful-hover" align="center">فرم ثبت نام</legend>
+    <form>
+      <table class="table">
+        <tr>
+          <td>نام کاربری:</td>
+          <td><input type="text" placeholder="نام کاربری خود را وارد کنید"></td>
+        </tr>
+        <tr>
+          <td>رمز عبور:</td>
+          <td><input type="password" placeholder="رمز عبور خود را وارد کنید"></td>
+        </tr>
+        <tr>
+          <td>ایمیل:</td>
+          <td><input type="email" placeholder="ایمیل خود را وارد کنید"></td>
+        </tr>
+        <tr>
+          <td>آدرس:</td>
+          <td><textarea rows="4"></textarea></td>
+        </tr>
+        <tr>
+          <td>جنسیت:</td>
+          <td>
+            <input type="radio" name="gender"> مرد
+            <input type="radio" name="gender"> زن
+          </td>
+        </tr>
+        <tr>
+          <td>شهر:</td>
+          <td>
+            <select>
+              <option>تهران</option>
+              <option>کرج</option>
+              <option>رشت</option>
+              <option>مشهد</option>
+              <option>اصفهان</option>
+              <option>شیراز</option>
+              <option>تبریز</option>
+              <option>اهواز</option>
+              <option>قم</option>
+              <option>اراک</option>
+              <option>کرمان</option>
+              <option>یزد</option>
+              <option>اردبیل</option>
+              <option>سنندج</option>
+              <option>زاهدان</option>
+              <option>گرگان</option>
+              <option>بوشهر</option>
+              <option>خرم‌آباد</option>
+              <option>ساری</option>
+              <option>قزوین</option>
+              <option>همدان</option>
+              <option>شهرکرد</option>
+              <option>بیرجند</option>
+              <option>کاشان</option>
+              <option>اردستان</option>
+              <option>بندرعباس</option>
+              
+              <option selected>تبریز</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>استان:</td>
+          <td>
+            <select>
+              <optgroup label="گیلان">
+                <option>رشت</option>
+                <option>انزلی</option>
+              </optgroup>
+              <optgroup label="تهران">
+                <option>تهران</option>
+                <option>شهر ری</option>
+              </optgroup>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>علاقه‌مندی‌ها:</td>
+<td>
+  <label class="cbx-label">
+    <input type="checkbox" class="cbx" checked> موزیک
+  </label>
+  <label class="cbx-label">
+    <input type="checkbox" class="cbx"> ورزش
+  </label>
+  <label class="cbx-label">
+    <input type="checkbox" class="cbx"> سفر
+  </label>
+</td>
+        </tr>
+        <tr>
+          <td>فایل:</td>
+          <td><input type="file"></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="ثبت نام">
+            <input type="reset" value="پاک کردن فرم">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </fieldset>
+  <div>
+    <div class="sidebar-box"
+    >
+      <!-- سایدبار -->
+      <ul class="">
+        
+        <li class="">
+        <a href="#">خانه</a></li>
+      <li class=""> 
+        <a href="#">درباره ما</a>
+      </li>
+      <li class=""><a href="#"> تماس با ما</a>
+    </li>
+    </ul>
+<br>
+
+    <ul><label for="">کشور های خاورمیانه</label>
+      <br>
+      <hr>
+      <br>
+      <li><a href="https://fa.wikipedia.org/wiki/ایران" target="_blank">ایران</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/عراق" target="_blank">عراق</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/عربستان_سعودی" target="_blank">عربستان سعودی</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/امارات_متحده_عربی" target="_blank">امارات متحده عربی</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/قطر" target="_blank">قطر</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/کویت" target="_blank">کویت</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/بحرین" target="_blank">بحرین</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/عمان" target="_blank">عمان</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/یمن" target="_blank">یمن</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/سوریه" target="_blank">سوریه</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/لبنان" target="_blank">لبنان</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/اردن" target="_blank">اردن</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/فلسطین" target="_blank">فلسطین</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/اسرائیل" target="_blank">اسرائیل</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/ترکیه" target="_blank">ترکیه</a></li>
+  <li><a href="https://fa.wikipedia.org/wiki/قبرس" target="_blank">قبرس</a></li>
+</ul>
+    </ul>
+
+    </div>
+    
+  </div>
+    
+    </div>
+
+
+<div class="footer">
+
+
+
+    <ul class="section-footer">
+        
+        <li class="li1">
+        <a href="#">خانه</a></li>
+      <li class="li2"> 
+        <a href="#">درباره ما</a>
+      </li>
+      <li class="li3"><a href="#"> تماس با ما</a>
+    </li>
+    </ul>
+    </div>
+</div>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
